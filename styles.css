@@ -73,6 +73,8 @@ body {
     /* overflow-x: hidden; */
 }
 
+/* ========== HOME PAGE ========== */
+
 /* HEADER */    
 #header {
     display: flex;
@@ -135,7 +137,7 @@ body {
     display: none;
 }
 
-/* HOME */
+/* HERO*/
 #hero {
     background-image: url("img/hero4.png");
     height: 90vh;
@@ -302,7 +304,6 @@ body {
 }
 
 /* BANNER */
-
 #banner {
     display: flex;
     flex-direction: column;
@@ -542,7 +543,27 @@ footer .copyright {
     text-align: center;
 }
 
-/* MEDIA QUERYS */
+/* ========== SHOP PAGE ========== */
+#page-header {
+    background-image: url("img/banner/b1.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 14px;
+}
+
+#page-header h2,
+#page-header p {
+    color: #fff;
+}
+
+
+
+/* ========== MEDIA QUERYS ========== */
 @media (max-width:799px ) {
     .section-p1 {
         padding: 40px 40px;
@@ -683,12 +704,16 @@ footer .copyright {
     }
 
     #sm-banner .banner-box {
-        height: 40vh;
+        height: 45vh;
     }
 
     #sm-banner .banner-box2 {
         margin-top: 20px;
     }
+
+/*     #sm-banner .banner-box2 h2 {
+        line-height: 35px;
+    } */
 
     #banner3 {
         padding: 0 20px;
