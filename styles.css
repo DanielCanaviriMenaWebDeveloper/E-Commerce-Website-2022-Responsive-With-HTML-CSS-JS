@@ -652,6 +652,7 @@ footer .copyright {
 }
 
 /* ========== BLOG PAGE ========== */
+
 /* BLOG HEADER */
 #page-header.blog-header {
     background-image: url("img/banner/b19.jpg");
@@ -723,6 +724,32 @@ footer .copyright {
     color: #c9cbce;
     z-index: -9;
 }
+
+/* ========== ABOUT PAGE ========== */
+/* ABOUT HEADER */
+#page-header.about-header {
+    background-image: url("img/about/banner.png");
+}
+
+/* ABOUT HEAD */
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head img {
+    width: 50%;
+    height: auto;
+}
+
+#about-head div {
+    /* width: 50%; */
+    padding-left: 40px;
+}
+
+
+
+
 
 /* ========== MEDIA QUERYS ========== */
 @media (max-width:799px ) {
