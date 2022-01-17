@@ -912,5 +912,26 @@ footer .copyright {
         width: 100%;
     }
 
+    /* ========== BLOG PAGE ========== */
+    /* SECTION BLOG */
+    #blog {
+        padding: 100px 20px 0px 20px;
+    }
+
+    #blog .blog-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #blog .blog-img {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-details {
+        width: 100%;
+    }
+
 
 }
