@@ -915,7 +915,7 @@ footer .copyright {
         margin-top: 20px;
     }
 
-/*     #sm-banner .banner-box2 h2 {
+    /*     #sm-banner .banner-box2 h2 {
         line-height: 35px;
     } */
 
@@ -976,5 +976,21 @@ footer .copyright {
         width: 100%;
     }
 
+    /* ========== ABOUT PAGE ========== */
+    #about-head {
+        flex-direction: column;
+    }
 
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about-head div {
+        padding-left: 0px;
+    }
+
+    #about-app .video {
+        width: 100%;
+    }
 }
