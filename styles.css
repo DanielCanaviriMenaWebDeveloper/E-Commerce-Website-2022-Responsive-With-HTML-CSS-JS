@@ -987,6 +987,7 @@ footer .copyright {
     }
 
     #about-head div {
+        width: 100%;
         padding-left: 0px;
     }
 
